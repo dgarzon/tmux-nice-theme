@@ -90,9 +90,3 @@ set "@prefix_highlight_fg" "$theme_black"
 set "@prefix_highlight_bg" "$theme_green"
 set "@prefix_highlight_copy_mode_attr" "fg=$theme_black,bg=$theme_green"
 set "@prefix_highlight_output_prefix" "  "
-
-set "status-right" "#[fg=$theme_white,bg=$theme_black,nounderscore,noitalics]${time_format}  ${date_format} #[fg=$theme_grey,bg=$theme_black]#[fg=$theme_grey,bg=$theme_grey]#[fg=$theme_white, bg=$theme_grey]${status_widgets} #[fg=$theme_green,bg=$theme_grey,nobold,nounderscore,noitalics]#[fg=$theme_black,bg=$theme_green,bold] #H #[fg=$theme_yellow, bg=$theme_green]#[fg=$theme_yellow,bg=$theme_yellow]  #[fg=$theme_red, bg=$theme_yellow]#[fg=$theme_red,bg=$theme_red] #[]  "
-set "status-left" "#[fg=$theme_grey,bg=$theme_green,bold] #S #{prefix_highlight}#[fg=$theme_green,bg=$theme_black,nobold,nounderscore,noitalics]"
-
-set "window-status-format" "#[fg=$theme_black,bg=$theme_black,nobold,nounderscore,noitalics]#[fg=$theme_white,bg=$theme_black] #I  #W #[fg=$theme_black,bg=$theme_black,nobold,nounderscore,noitalics]"
-set "window-status-current-format" "#[fg=$theme_black,bg=$theme_grey,nobold,nounderscore,noitalics]#[fg=$theme_white,bg=$theme_grey,nobold] #I  #W #[fg=$theme_grey,bg=$theme_black,nobold,nounderscore,noitalics]"
